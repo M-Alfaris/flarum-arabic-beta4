@@ -1,0 +1,35 @@
+{
+    "name": "flarum/arabic",
+    "type": "flarum-extension",
+    "description": "Arabic language pack by flarumarabia.com.",
+    "keywords": ["locale"],
+    "license": "MIT",
+	 "authors": [
+        {
+            "name": "Samy Massoud",
+            "email": "samymassoud@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "http://www.flarumarabia.com",
+        "source": "http://www.flarumarabia.com"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+	},
+    "extra": {
+        "flarum-extension": {
+            "title": "العربية",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ar",
+            "title": "العربية"
+        }
+    }
+}
