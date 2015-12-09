@@ -1,0 +1,6 @@
+﻿matpompili-imgur-upload:
+  forum:
+    attach: رفع صورة
+    loading: جارى الرفع...
+    loaded: تم الرفع.
+    error: خطأ
